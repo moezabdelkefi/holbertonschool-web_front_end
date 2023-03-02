@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6{
 /*all anchor elements, set the foreground color*/
 a {
     color: #161616;
-    color: var(--text-color);
+    text-decoration: cadetblue;
 }
 
 /*All elements with the class visually-hidden should have their display to none*/
