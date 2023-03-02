@@ -51,7 +51,7 @@ visually-hidden {
     color: var(--color-primary);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
-    font-weight: var(--font-weight-bold);
+    color: var(--font-weight-bold);
 }
 
 /* -- used to define custom properties*/
