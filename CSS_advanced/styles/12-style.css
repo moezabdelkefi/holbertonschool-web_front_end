@@ -43,7 +43,7 @@ visually-hidden {
     font-size: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
     margin: var(--section-title-margin);
-    text-align: var(--section-title-color);
+    color: var(--section-title-color);
 }
 
 /*All elements with the class section-tagline should have their foreground color set*/
@@ -51,7 +51,7 @@ visually-hidden {
     color: var(--color-primary);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
-    color: var(--font-weight-bold);
+    font-weight: var(--font-weight-bold);
 }
 
 /* -- used to define custom properties*/
