@@ -75,7 +75,7 @@ visually-hidden {
 
 .container {
     width: 960px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 /* -- used to define custom properties*/
