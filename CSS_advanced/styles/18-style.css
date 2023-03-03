@@ -135,7 +135,7 @@ visually-hidden {
     padding: var(--footer-padding);
 }
 
-navbar-menu {
+.navbar-menu {
     float: right;
 }
 
