@@ -323,7 +323,7 @@ ul.row{
         height: 20vh;
 }
 
-.nav .nav-link:hover nav{
+.nav .nav-item:hover nav{
     background-color: var(--color-primary);
     width: 100%;
 }
