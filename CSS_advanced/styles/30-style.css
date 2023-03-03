@@ -340,7 +340,7 @@ ul.row{
     vertical-align: bottom;
 }
 
-.card-work card-inner {
+.card-work .card-inner {
     position: absolute;
     top: -0.1rem;
     left: -0.1rem;
@@ -352,7 +352,7 @@ ul.row{
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.card-work card-title {
+.card-work .card-title {
     text-align: center;
     margin: 0;
     opacity: 0;
