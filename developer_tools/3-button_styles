@@ -1,5 +1,9 @@
 element.style {
 }
+.btn-xl {
+    padding: 1rem 1.75rem;
+    font-size: 1.25rem;
+}
 .btn-outline-light:hover {
     color: #212529;
     background-color: #f8f9fa;
