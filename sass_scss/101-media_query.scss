@@ -1,0 +1,11 @@
+/*Media query #0*/
+
+$font: 20px;
+$fonts: 14px;
+
+h1 {
+    font-size: $font;
+    @media screen and (max-width: 320px) { 
+            font-size: $fonts;
+        }
+}
