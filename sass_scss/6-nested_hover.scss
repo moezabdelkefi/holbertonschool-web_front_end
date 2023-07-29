@@ -1,10 +1,11 @@
 /*Nested hover*/
 
 $butt: #FF0000;
+$but: #00FF00;
 
 button {
     color: $butt;
     &:hover {
-        color: $butt;
+        color: $but;
     }
 }
