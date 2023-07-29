@@ -1,0 +1,17 @@
+/*Margin mixin*/
+
+$left: 10px;
+$right: 10px;
+
+$leftdiv: 15px;
+$rightdiv: 15px;
+
+body {
+    margin-left: $left;
+    margin-right: $right;
+}
+
+div {
+    margin-left: $leftdiv;
+    margin-right: $rightdiv;
+}
