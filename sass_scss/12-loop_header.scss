@@ -1,0 +1,10 @@
+/*Loop Headers*/
+
+$fonts: 1px;
+$h: 4;
+
+@for $i from 0 through $h {
+    h#{$i + 1} {
+        font-size: $fonts + $i;
+    }
+}
