@@ -1,0 +1,10 @@
+/*Columns and operators*/
+
+$cols: (100%, 50%, 33.3333333333%, 25%);
+$col: length($cols);
+
+@for $i from 1 through $col {
+  .col-#{$i} {
+    width: nth($cols, $i);
+  }
+}
