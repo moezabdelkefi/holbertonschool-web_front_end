@@ -4,7 +4,7 @@ $butt: #FF0000;
 
 button {
     color: $butt;
-    :hover {
+    &:hover {
         color: $butt;
     }
 }
