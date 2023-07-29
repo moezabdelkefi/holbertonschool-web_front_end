@@ -1,0 +1,25 @@
+/*Extended*/
+
+.info {
+    font-size: 12px;
+}
+
+.success {
+    color: #00FF00;
+}
+
+.warning {
+    color: #FF0000;
+}
+
+.info, .success, .warning {
+    @extend .info
+}
+
+.success {
+    @extend .success
+}
+
+.warning {
+    @extend .warning
+}
