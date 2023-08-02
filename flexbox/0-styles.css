@@ -187,6 +187,9 @@
     list-style: none;
   }
   
+  .row {
+    display: flex;
+  }
 
   
   [class*='col-'] {
@@ -200,7 +203,7 @@
   .col-1-2 {
     width: 50%;
   }
-  
+
   /* Navbar
       ============================= */
   
