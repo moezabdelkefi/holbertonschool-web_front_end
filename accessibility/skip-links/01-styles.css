@@ -190,8 +190,8 @@
   }
 
   .off-screen {
-    left: 100vw;
-    position: relative;
+    left: -100vw;
+    position: absolute;
   }
 
   .skip-link {
@@ -207,7 +207,7 @@
     transition: transform .2s ease-in-out, opacity .2s ease-in-out;
   }
 
-  .skip-link .focus {
+  .skip-link:focus {
     opacity: 0;
     transform: translateY(0);
   }
