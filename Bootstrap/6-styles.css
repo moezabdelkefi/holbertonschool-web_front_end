@@ -1,6 +1,6 @@
 :root {
     --light-red: #e0003c;
-    --dark-red: #8B0000;
+    --dark-red: #bc1340;
     --white: #FFFFFF;
 } 
 .border-bottom {
@@ -48,7 +48,10 @@ h4 {
 
 .card-body {
     border: 2px solid var(--light-red);
-    border-bottom-right-radius: 1rem !important;
-    border-bottom-left-radius: 1rem!important;
+    
 }
 
+.lead,
+.list-unstyled {
+    font-weight: 500;
+}
