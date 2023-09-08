@@ -1,0 +1,27 @@
+function countPrimeNumbers() {
+    // Helper function to check if a number is prime
+    function isPrime(num) {
+        if (num <= 1) return false;
+        if (num <= 3) return true;
+
+        if (num % 2 === 0 || num % 3 === 0) return false;
+
+        for (let i = 5; i * i <= num; i += 6) {
+            if (num % i === 0 || num % (i + 2) === 0) return false;
+        }
+
+        return true;
+    }
+
+    let count = 0;
+    for (let i = 2; i <= 100; i++) {
+        if (isPrime(i)) {
+            count++;
+        }
+    }
+
+    return count;
+}
+
+const primeCount = countPrimeNumbers();
+console.log(`The number of prime numbers between 2 and 100 is: ${primeCount}`);
