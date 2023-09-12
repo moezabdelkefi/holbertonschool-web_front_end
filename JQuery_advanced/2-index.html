@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Task 1</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+
+</head>
+
+<body>
+    <script type="application/javascript">
+        function createFamilyTree() {
+            var table = $("<table></table>");
+
+            var header = $("<tr></tr>");
+            header.append("<th>First Name</th>");
+            header.append("<th>Last Name</th>");
+
+            var row1 = $("<tr></tr>");
+            row1.append("<td>Guillaume</td>");
+            row1.append("<td>Salva</td>");
+
+            var row2 = $("<tr></tr>");
+            row2.append("<td>Paulette</td>");
+            row2.append("<td>Salva</td>");
+
+            var row3 = $("<tr></tr>");
+            row3.append("<td>Antoine</td>");
+            row3.append("<td>Salva</td>");
+
+            table.append(header);
+            table.append(row1);
+            table.append(row2);
+            table.append(row3);
+
+            $("body").append(table);
+        }
+
+        createFamilyTree();
+    </script>
+
+</body>
