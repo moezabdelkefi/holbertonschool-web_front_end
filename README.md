@@ -95,4 +95,5 @@ My journey in developing the projects within this repository has been a continuo
 From working with Bootstrap and custom CSS to making web pages more accessible and responsive, this repository has been a testament to the versatility and power of modern web technologies. Challenges ranged from ensuring cross-browser compatibility to fine-tuning user interfaces and enhancing user experience.
 
 As I continue to explore and develop front-end projects, I look forward to implementing the remaining features, addressing challenges, and staying up-to-date with the latest trends and best practices in the field of web design and development.
+
 Enjoy the holbertonschool web front end project! 🚀🎉
